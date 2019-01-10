@@ -1,0 +1,344 @@
+.nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+li a {
+	font-size: 12px;
+	color: #000;
+	display: flex;
+	flex-wrap: wrap;
+}
+ul {
+	display: flex;
+}
+.jumbotron {
+	background-image: url('../../images/image.png');
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#atlantida {
+	margin-bottom: 0;
+}
+.jumbotron h5 {
+	color: #fff;
+	margin: 60px auto 20px;
+}
+.jumbotron .title {
+	color: #fff;
+	font-size: 54px;
+}
+
+.jumbotron img {
+	position: absolute;
+	left: 30%;
+}
+
+.jumbotron .btn {
+	background: none;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 40px auto;
+	padding: 10px 20px;
+}
+
+.about {
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	padding-top: 50px;
+}
+
+.about_info {
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.about_info .sea {
+	width: 103.8%;
+}
+.about_info .line, .line {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.about_info p {
+	width: 90%;
+}
+.about_info .button button {
+	width: 100px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.cont {
+	background-color: #000;
+	color: #fff;
+}
+.button .port {
+	background-color: #fff;
+	border: 2px solid #000;
+}
+.about_achievement {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.achieve, .block {
+	padding: 0 60px;
+	margin: 50px 0;
+	border-right: 2px solid darkgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.block {
+	width: 20%;
+	padding: 20px 10px;
+	border: 1px solid #fff;
+	
+}
+.borderless {
+	border-right: none;
+}
+.block img, .achieve img {
+	margin-bottom: 20px;
+}
+
+.block p, .achieve h4 {
+	margin-top: 15px;
+}
+.block p, .block h4, .achieve h4 {
+	margin: 0;
+}
+.block p {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.block h1 {
+	font-weight: bold;
+}
+.services {
+	background-image: url('../../images/services.png');
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.services h3 {
+
+}
+/*.upper_icon {
+	position: relative;
+	width: 80px;
+	//padding: 20px;
+	bottom: 15px;
+	z-index: 100;
+}*/
+/*.upper_icon img {
+	width: 30px;
+}*/
+.service {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.team {
+	background-image: url('../../images/team bg.png');
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.team p, .portfolio p {
+	width: 70%;
+}
+.members {
+	display: flex;
+	justify-content: center;
+}
+.member {
+	width: 25%;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.overlay {
+	position: absolute;
+	margin: 10px ;
+	background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 10px;
+	padding: 130px 25px 10px;
+	display: none;
+}
+.overlay .name {
+	font-weight: bold;
+}
+.overlay .job {
+	font-style: italic;
+}
+.overlay .underline{
+	width: 150px;
+	height: 2px;
+	background-color: #000;
+}
+.social {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.social a img {
+	width: 15px;
+	margin: 15px 5px 20px 0;
+}
+.member1:hover #overlay, .member2:hover #overlay2, .member3:hover #overlay3{
+	display: flex;
+}
+.member img{
+	width: 100%;
+}
+.member2 p, .member2 a {
+	color: #000;
+	text-decoration: none;
+}
+.portfolio {
+	position: relative;
+	background-color: #fff;
+	color: #000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50px;
+}
+.portfolio .button {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.portfolio .port {
+	background-color: #fff;
+}
+.active {
+	background-color: #000;
+	color: #fff;
+}
+.portfolio .row {
+	width: 100%;
+}
+.gallery {
+	/*position: absolute;*/
+	left: 0;
+	width: 100%;
+	display: flex;
+	background-color: #000;
+}
+.gallery .column {
+	width: 310px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.img {
+	background-size: cover;
+	width: 310px;
+	height: 200px;
+}
+#img1 {
+	height: 400px;
+}
+#img2 {
+	height: 300px;
+}
+#img3 {
+	height: 200px;
+}
+#img4 {
+	height: 400px;
+}
+#img5 {
+	height: 200px;
+}
+#img6 {
+	height: 300px;
+}
+#img7 {
+	height: 400px;
+}
+#img8 {
+	height: 200px;
+}
+.purchase {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	background-color: #000;
+	color: #fff;
+}
+.purchase img {
+	margin-left: 200px;
+}
+.purchase_text {
+	margin-left: 20px;
+}
+.purchase_text h3 {
+	font-weight: bold;
+	color: lightgray;
+}
+.purchase_text p {
+	font-size: 12px;
+	width: 60%;
+	color: darkgray;
+}
+.purchase button {
+	background-color: #000;
+	border: 1px solid #fff;
+	margin-right: 250px;
+}
+.brands {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.brands img {
+	margin: 40px;
+}
+.map {
+	background-image: url('../../images/map.png');
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+.locator {
+	width: 60px;
+	height: 60px;
+	background-color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 40%;
+	left: 40%;
+}
+.locator div {
+	width: 50px;
+	height: 50px;
+	border: 1px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
